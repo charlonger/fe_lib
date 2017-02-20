@@ -1,0 +1,23 @@
+{
+    "name": "ffan/eagle-php-sdk",
+    "description": "The eagle php sdk",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huanglong17",
+            "email": "huanglong17@wanda.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ffan\\Eagle\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    }
+}
